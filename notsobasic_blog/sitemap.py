@@ -1,5 +1,5 @@
 from django.contrib.sitemaps import Sitemap
-from misc.basic.blog.models import Post
+from basic.blog.models import Post
 
 class BlogSitemap(Sitemap):
     changefreq = "never"

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from misc.notsobasic_blog.models import *
+from notsobasic_blog.models import *
 
 class CategoryAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug': ('title',)}
