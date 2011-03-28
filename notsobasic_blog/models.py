@@ -9,7 +9,7 @@ from django.core.urlresolvers import reverse, NoReverseMatch
 from tagging.fields import TagField
 
 from notsobasic_blog.managers import PublicManager
-from notsobasicblog.helpers.fix_unicode import fix_unicode
+from notsobasic_blog.helpers.fix_unicode import fix_unicode
 
 import tagging
 
